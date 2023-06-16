@@ -25,9 +25,10 @@ int main(void)
 		while (b < 10)
 		{
 			c = a;
+			d = b + 1;
 			while (c < 10)
 			{
-				d = b + 1;
+				d = 0;
 				while (d < 10)
 				{
 					if (flag)
@@ -50,6 +51,5 @@ int main(void)
 		++a;
 	}
 	putchar('\n');
-
 	return (0);
 }

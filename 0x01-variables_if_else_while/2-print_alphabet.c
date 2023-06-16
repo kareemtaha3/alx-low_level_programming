@@ -12,12 +12,15 @@
  */
 int main(void)
 {
-/* your code goes there */
+	/* your code goes there */
 	char c = 'a';
+
 	while (c <= 'z')
 	{
 		putchar(c);
 		++c;
 	}
+	putchar('\n');
+
 	return (0);
 }

@@ -12,7 +12,6 @@
  */
 int main(void)
 {
-	/* your code goes there */
 	int a = 0;
 	int b = 0;
 	int c = 0;
@@ -28,7 +27,8 @@ int main(void)
 			d = b + 1;
 			while (c < 10)
 			{
-				d = 0;
+				if (c > a)
+					d = 0;
 				while (d < 10)
 				{
 					if (flag)

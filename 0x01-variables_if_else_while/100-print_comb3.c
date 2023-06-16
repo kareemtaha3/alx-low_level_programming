@@ -23,17 +23,12 @@ int main(void)
 		{
 			putchar(a + '0');
 			putchar(b + '0');
-			if (b < 9)
+			if (a < 8)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 			++b;
-		}
-		if (a < 8)
-		{
-			putchar(',');
-			putchar(' ');
 		}
 		++a;
 	}

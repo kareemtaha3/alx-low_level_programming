@@ -20,6 +20,6 @@ int _putchar(char *c)
 int main(void)
 {
 	_putchar("_putchar\n");
-	return (0);	
+	return (0);
 }
 

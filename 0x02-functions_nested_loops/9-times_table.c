@@ -24,7 +24,7 @@ void times_table(void)
 				_putchar(a * b + '0');
 			else
 			{
-				_putchar((a * b) % 100 + '0');
+				_putchar((a * b) / 10 + '0');
 				_putchar((a * b) % 10 + '0');
 			}
 			++b;

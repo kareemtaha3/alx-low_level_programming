@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_alphabet -utilizes on th _putchar function to print
+ *print_alphabet_x10 -utilizes on th _putchar function to print
  *		the alpabet a to z
  */
 

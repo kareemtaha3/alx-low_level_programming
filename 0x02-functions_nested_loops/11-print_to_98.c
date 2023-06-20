@@ -18,6 +18,7 @@ void print_to_98(int n)
 			printf("%d", i);
 			flag = 1;
 		}
+		printf("\n");
 	}
 	else
 	{
@@ -30,6 +31,7 @@ void print_to_98(int n)
 			printf("%d", i);
 			flag = 1;
 		}
+		printf("\n");
 	}
 
 

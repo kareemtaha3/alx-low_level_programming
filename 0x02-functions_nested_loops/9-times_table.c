@@ -10,7 +10,7 @@ void times_table(void)
 	while (a < 10)
 	{
 		b = 0;
-		while (b < 13)
+		while (b < 10)
 		{
 			if (flag)
 			{
@@ -20,7 +20,12 @@ void times_table(void)
 					_putchar(' ');
 			}
 			flag = 1;
-			_putchar(a * b + '0');
+			if (a * b <= 9)
+				_putchar(a * b + '0');
+			else
+			{
+				_putchar((a * b) % 100 + '0');
+				_putchar((a * b) % 10 + '0');
 			++b;
 		}
 		++a;

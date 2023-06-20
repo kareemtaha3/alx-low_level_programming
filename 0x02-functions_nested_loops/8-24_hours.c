@@ -9,10 +9,13 @@ void jack_bauer(void)
 
 	while (a < 3)
 	{
+		b = 0;
 		while (b <= 9)
 		{
+			c = 0;
 			while (c < 6)
 			{
+				d = 0;
 				while (d <= 9)
 				{
 					_putchar(a + '0');

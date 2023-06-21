@@ -7,10 +7,10 @@ void print_times_table(int n)
 {
 	int a = 0, b = 0, flag = 0;
 
-	while (a < n)
+	while (a <= n)
 	{
 		b = 0;
-		while (b < n)
+		while (b <= n)
 		{
 			if (flag)
 			{

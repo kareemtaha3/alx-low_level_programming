@@ -35,7 +35,7 @@ void print_times_table(int n)
 			else
 			{
 				_putchar((a * b) / 100 + '0');
-				_putchar((a * b) / 10 + '0');
+				_putchar(((a * b) % 100) / 10 + '0');
 				_putchar((a * b) % 10 + '0');
 			}
 			++b;

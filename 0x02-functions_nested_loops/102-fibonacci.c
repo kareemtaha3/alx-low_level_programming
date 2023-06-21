@@ -14,7 +14,7 @@ int main(void)
 	long a = 1, b = 2, i, tmp = 0;
 
 	printf("%ld", a);
-	for (i = 0; i < 50; ++i)
+	for (i = 1; i < 50; ++i)
 	{
 		printf(", ");
 		printf("%ld", b);

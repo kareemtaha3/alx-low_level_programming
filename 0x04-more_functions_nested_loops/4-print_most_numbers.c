@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers-function check if letter is upper case or not
+ * print_most_numbers-function check if letter is upper case or not
  *		only using _puhcar twice
  * Return: Always 0 (Success)
  */

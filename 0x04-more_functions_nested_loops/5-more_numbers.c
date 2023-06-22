@@ -19,7 +19,7 @@ void more_numbers(void)
 			part = num;
 			if (count > 9)
 			{
-				_putchar(49);
+				_putchar(1 + 48);
 				part = num % 10;
 			}
 			_putchar(part + 48);

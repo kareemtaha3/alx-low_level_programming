@@ -10,15 +10,22 @@
 
 void more_numbers(void)
 {
-	int num, i;
+	int num, i, part;
 
 	for (i = 0; i < 10; ++i)
 	{
 		for (num = 0; num <= 14; ++num)
 		{
-			_putchar(num + 48);
+			part = num;
+			num = num % 10;
+			if (num <= 9)
+				_putchar(num + 48);
+			if (part > 9)
+			{
+				part = num / 10;
+				_putchar(part + 48);
+			}
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }

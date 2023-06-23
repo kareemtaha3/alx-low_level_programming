@@ -17,7 +17,7 @@ void more_numbers(void)
 		for (num = 0; num <= 14; ++num)
 		{
 			part = num;
-			if (count > 9)
+			if (part > 9)
 			{
 				_putchar(49);
 				part = num % 10;

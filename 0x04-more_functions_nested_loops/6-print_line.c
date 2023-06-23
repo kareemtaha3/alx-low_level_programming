@@ -1,23 +1,30 @@
 #include "main.h"
 
 /**
- * print_line-print line
- * @n: parameter
+ * print_square-print line
+ * @size: parameter
  * Return: Always 0 (Success)
  */
 
 
-void print_line(int n)
+void print_square(int size)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; i < n; ++i)
+	if (size <= 0)
+		_putchar('\n')
+	else
 	{
-		_putchar('_');
+	for (i = 0; i < size; ++i)
+	{
+		for (j = 0; j < size; ++j)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 
-
+	}
 
 
 

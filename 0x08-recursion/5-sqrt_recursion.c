@@ -1,4 +1,17 @@
 #include "main.h"
+
+
+/**
+ * _sqrt_recursion-function to get sqrt
+ * @n:number
+ * @i:counter
+ * Return: sqrt
+ */
+int _sqrt(int n, int i);
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
+}
 /**
  * _sqrt-function to get the sqrt
  * @n:number
@@ -13,14 +26,3 @@ int _sqrt(int n, int i)
 		return (-1);
 	_sqrt(n, ++i);
 }
-
-/**
- * _sqrt_recursion-function to get sqrt
- * @n:number
- * Return: sqrt
- */
-int _sqrt_recursion(int n)
-{
-	return (_sqrt(n, 1));
-}
-

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt-function to get the sqrt
+ * _sqrt-function to get the sqrt
  * @n:number
  * @i:counter
  * Return:sqrt

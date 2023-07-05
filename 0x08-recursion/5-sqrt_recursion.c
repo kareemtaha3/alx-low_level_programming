@@ -1,16 +1,26 @@
 #include "main.h"
 /**
- * _pow_recursion-function to raise a value to a power
- * @x:value
- * @y:power
- * Return: value raised to the power
+ * sqrt-function to get the sqrt
+ * @n:number
+ * @i:counter
+ * Return:sqrt
  */
-int _pow_recursion(int x, int y)
+int _sqrt(int n, int i)
 {
-	if (y == 0)
-		return (1);
-	if (y < 0)
+	if (i * i == n)
+		return (i);
+	if (i * i > n)
 		return (-1);
-	return (x * _pow_recursion(x, y - 1));
+	_sqrt(n, ++i);
+}
+
+/**
+ * _sqrt_recursion-function to get sqrt
+ * @n:number
+ * Return: sqrt
+ */
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
 }
 

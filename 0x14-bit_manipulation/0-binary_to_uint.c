@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- * binary_to_uint-function to convert binary to unsigned int
- * @b:binary number
- * Return:unsigned int decimal number
+/**
+ * binary_to_uint - function to convert binary to unsigned int
+ * @b: binary number
+ * Return: unsigned int decimal number
  */
 unsigned int binary_to_uint(const char *b)
 {
